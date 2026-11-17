@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Las Palmas Auto Repair — Los Angeles, CA | Honest Diagnostics, Master Craft</title>
+<meta name="description" content="Las Palmas Auto Repair, 4822 Compton Ave, Los Angeles. 5.0 stars from 9 Google reviews. Diagnostics, engine work, oil changes, smog testing, transmission service. Open Mon–Fri 8–5, Sat 8–3.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --black:#0b0b0c; --coal:#131315; --panel:#17171a; --line:#2a2a2e;
+  --gold:#f5c518; --gold-soft:#ffd94d; --gold-deep:#c9a227;
+  --red:#d21f26; --red-deep:#a3121a;
+  --cream:#f7f2e8; --cream2:#efe8d8; --ink:#161617; --mut:#6d6a63; --mut2:#9a978f;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--cream)}
+a{color:inherit}
+img{max-width:100%;display:block}
+.demo-banner{background:var(--gold);color:#111;text-align:center;font-weight:800;letter-spacing:.14em;font-size:12px;padding:9px 12px;text-transform:uppercase}
+.demo-banner span{opacity:.65;font-weight:600;letter-spacing:.06em;text-transform:none}
+/* ---------- header ---------- */
+header.site{position:sticky;top:0;z-index:50;background:rgba(11,11,12,.97);border-bottom:1px solid var(--gold);backdrop-filter:blur(6px)}
+.header-in{max-width:1180px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.lockup{text-decoration:none;line-height:1;display:flex;flex-direction:column;gap:2px}
+.lockup .l1{font-family:Anton,Impact,sans-serif;font-size:30px;letter-spacing:.02em;color:var(--gold);-webkit-text-stroke:1.5px var(--red);text-stroke:1.5px var(--red);text-shadow:2px 2px 0 rgba(210,31,38,.55)}
+.lockup .l2{font-family:Anton,Impact,sans-serif;font-size:15px;letter-spacing:.42em;color:var(--red)}
+.lockup .l3{font-size:10px;letter-spacing:.3em;color:#b9b4a8;text-transform:uppercase;font-weight:600}
+nav.main{margin-left:auto;display:flex;gap:4px;flex-wrap:wrap}
+nav.main a{color:#e8e4da;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:9px 12px;border-radius:999px}
+nav.main a:hover{color:var(--gold)}
+nav.main a.active{background:var(--gold);color:#111}
+.btn{display:inline-block;text-decoration:none;font-weight:700;border-radius:999px;padding:13px 22px;font-size:15px;border:0;cursor:pointer}
+.btn-gold{background:var(--gold);color:#111}
+.btn-gold:hover{background:var(--gold-soft)}
+.btn-red{background:var(--red);color:#fff}
+.btn-red:hover{background:var(--red-deep)}
+.btn-ghost{background:transparent;color:var(--cream);border:1px solid #55534e}
+.btn-ghost:hover{border-color:var(--gold);color:var(--gold)}
+.btn-sm{padding:10px 16px;font-size:13px}
+/* ---------- hero ---------- */
+.hero{position:relative;background:#000;color:#fff;overflow:hidden}
+.hero img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55}
+.hero .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,.82) 70%,rgba(11,11,12,1))}
+.hero-in{position:relative;max-width:1180px;margin:0 auto;padding:96px 20px 84px}
+.kicker{color:var(--gold);font-size:12px;font-weight:800;letter-spacing:.34em;text-transform:uppercase}
+.hero h1{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:clamp(44px,7vw,84px);line-height:.98;margin:18px 0 8px}
+.hero h1 em{color:var(--gold);font-style:italic}
+.hero .sign{font-family:Anton,Impact,sans-serif;font-size:clamp(22px,3.4vw,34px);letter-spacing:.04em;color:var(--gold);-webkit-text-stroke:1px var(--red);text-shadow:2px 2px 0 rgba(210,31,38,.6);margin:6px 0 0}
+.hero p.lede{max-width:640px;font-size:18px;line-height:1.6;color:#e9e5db;margin:18px 0 0}
+.hero p.lede b{color:var(--gold)}
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.hero-meta{display:flex;gap:26px;flex-wrap:wrap;margin-top:34px;padding-top:22px;border-top:1px solid rgba(255,255,255,.22)}
+.hero-meta div b{display:block;font-family:"Cormorant Garamond",Georgia,serif;font-size:30px;color:var(--gold);line-height:1}
+.hero-meta div span{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#cfccc2}
+.stars{color:var(--gold);letter-spacing:.1em;font-size:18px}
+/* ---------- layout ---------- */
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+section.block{padding:72px 0}
+section.dark{background:var(--black);color:#f2efe7}
+section.dark h2{color:#fff}
+h2{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:clamp(32px,4.4vw,48px);line-height:1.05;margin:0 0 10px}
+h2 em{color:var(--gold-deep);font-style:italic}
+section.dark h2 em{color:var(--gold)}
+.sub{color:var(--mut);font-size:17px;line-height:1.6;max-width:680px;margin:0}
+section.dark .sub{color:#b9b4a8}
+.rule{width:64px;height:3px;background:var(--gold);margin:22px 0}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media(max-width:820px){.grid3,.grid2{grid-template-columns:1fr}}
+.card{background:#fff;border:1px solid #e3ddcd;border-radius:16px;padding:26px}
+section.dark .card{background:var(--panel);border-color:var(--line);color:#eee}
+.card h3{margin:0 0 8px;font-size:19px}
+.card p{margin:0;color:var(--mut);line-height:1.6;font-size:15px}
+section.dark .card p{color:#b9b4a8}
+.pillar .num{font-family:"Cormorant Garamond",Georgia,serif;font-size:44px;color:var(--gold-deep);line-height:1}
+.pillar h3{margin:10px 0 6px}
+.chip{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--red-deep);background:#fdecec;border:1px solid #f3c1c1;padding:5px 10px;border-radius:999px}
+section.dark .chip{color:var(--gold);background:transparent;border-color:#5a4d1c}
+/* ---------- gallery ---------- */
+.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:14px}
+.gallery figure{margin:0;border-radius:14px;overflow:hidden;position:relative;background:#222}
+.gallery figure img{width:100%;height:100%;object-fit:cover;min-height:220px}
+.gallery figcaption{position:absolute;left:0;right:0;bottom:0;padding:34px 14px 12px;background:linear-gradient(180deg,transparent,rgba(0,0,0,.85));color:#fff;font-size:13px;font-weight:600;line-height:1.4}
+.gallery figure.tall{grid-row:span 2}
+@media(max-width:820px){.gallery{grid-template-columns:1fr 1fr}.gallery figure.tall{grid-row:auto}}
+/* ---------- services ---------- */
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:26px 0 18px}
+.toolbar input[type=search]{flex:1;min-width:220px;padding:13px 16px;border-radius:999px;border:1px solid #d8d2c0;font-size:15px;background:#fff}
+.fchip{border:1px solid #cfc8b4;background:#fff;border-radius:999px;padding:10px 16px;font-size:13px;font-weight:700;cursor:pointer}
+.fchip.active{background:var(--black);color:var(--gold);border-color:var(--black)}
+.svc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+@media(max-width:820px){.svc-grid{grid-template-columns:1fr}}
+.svc{background:#fff;border:1px solid #e3ddcd;border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:8px}
+.svc h3{margin:0;font-size:20px}
+.svc .cat{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--red-deep)}
+.svc p{margin:0;color:var(--mut);line-height:1.6;font-size:15px}
+.svc .tag{font-size:13px;color:var(--gold-deep);font-weight:700}
+.svc .add{margin-top:auto;align-self:flex-start;background:var(--black);color:var(--gold);border:0;border-radius:999px;padding:10px 16px;font-weight:700;font-size:13px;cursor:pointer}
+.svc .add.added{background:var(--gold);color:#111}
+.builder{margin-top:26px;background:var(--black);color:#f2efe7;border-radius:18px;padding:28px}
+.builder h3{font-family:"Cormorant Garamond",Georgia,serif;font-size:28px;margin:0 0 6px;color:#fff}
+.builder h3 em{color:var(--gold);font-style:italic}
+.builder p{color:#b9b4a8;line-height:1.6;margin:0 0 16px}
+.builder .sel-list{list-style:none;margin:0 0 16px;padding:0}
+.builder .sel-list li{padding:10px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px}
+.builder .sel-list li button{background:none;border:0;color:var(--red);cursor:pointer;font-size:13px;font-weight:700}
+.builder label{display:block;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#b9b4a8;margin:12px 0 6px}
+.builder input,.builder select{width:100%;padding:12px 14px;border-radius:10px;border:1px solid var(--line);background:#222;color:#fff;font-size:15px}
+.builder .row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+@media(max-width:700px){.builder .row3{grid-template-columns:1fr}}
+.summary-box{margin-top:18px;background:#1e1e21;border:1px solid var(--gold-deep);border-radius:12px;padding:18px;display:none}
+.summary-box.show{display:block}
+.summary-box h4{margin:0 0 8px;color:var(--gold)}
+.summary-box p{margin:6px 0;color:#e8e4da;font-size:15px;line-height:1.6}
+.fine{font-size:13px;color:#8f8a80}
+/* ---------- reviews ---------- */
+.rev-head{display:flex;gap:34px;flex-wrap:wrap;align-items:flex-start}
+.big-score{font-family:"Cormorant Garamond",Georgia,serif;font-size:84px;line-height:.9;color:var(--gold-deep)}
+.bars{flex:1;min-width:260px}
+.bar-row{display:grid;grid-template-columns:44px 1fr 30px;gap:10px;align-items:center;margin:7px 0;font-size:13px;font-weight:600}
+.bar-track{height:9px;background:#e7e1d0;border-radius:99px;overflow:hidden}
+.bar-fill{height:100%;background:var(--gold)}
+.carousel{position:relative;margin-top:30px;background:#fff;border:1px solid #e3ddcd;border-radius:18px;padding:38px 34px;min-height:250px}
+.carousel blockquote{margin:0;font-family:"Cormorant Garamond",Georgia,serif;font-size:clamp(21px,2.6vw,28px);line-height:1.45;font-weight:500}
+.carousel .who{margin-top:18px;font-size:14px;color:var(--mut);font-weight:600}
+.carousel .who b{color:var(--ink)}
+.car-btn{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:1px solid #d8d2c0;background:#fff;font-size:20px;cursor:pointer}
+.car-btn.prev{left:-14px}.car-btn.next{right:-14px}
+@media(max-width:700px){.car-btn.prev{left:6px}.car-btn.next{right:6px}.carousel{padding:30px 22px}}
+.dots{text-align:center;margin-top:16px}
+.dots button{width:9px;height:9px;border-radius:50%;border:0;background:#cfc8b4;margin:0 4px;cursor:pointer}
+.dots button.on{background:var(--gold-deep)}
+/* ---------- book / visit ---------- */
+.hours{width:100%;border-collapse:collapse}
+.hours td{padding:11px 4px;border-bottom:1px solid #e3ddcd;font-size:15px}
+.hours tr.today td{font-weight:800;color:var(--red-deep)}
+.hours tr.today td:last-child::after{content:" · Today";color:var(--gold-deep);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.hours td:last-child{text-align:right}
+form.book label{display:block;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--mut);margin:14px 0 6px}
+form.book input,form.book select,form.book textarea{width:100%;padding:13px 14px;border-radius:10px;border:1px solid #d8d2c0;background:#fff;font-size:15px;font-family:inherit}
+form.book .row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:700px){form.book .row2{grid-template-columns:1fr}}
+.confirm{display:none;margin-top:20px;background:#0f2b16;color:#eaf7ec;border-radius:14px;padding:22px}
+.confirm.show{display:block}
+.confirm h4{margin:0 0 8px;font-size:20px}
+.confirm p{margin:6px 0;line-height:1.6}
+.faq details{border:1px solid #e3ddcd;border-radius:12px;background:#fff;padding:16px 18px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:700;font-size:16px}
+.faq p{margin:10px 0 0;color:var(--mut);line-height:1.65}
+footer.site{background:var(--black);color:#b9b4a8;padding:52px 0 30px}
+footer.site a{color:var(--gold);text-decoration:none}
+footer.site .f-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:28px}
+@media(max-width:820px){footer.site .f-grid{grid-template-columns:1fr}}
+footer.site h4{color:#fff;margin:0 0 12px;font-size:14px;letter-spacing:.16em;text-transform:uppercase}
+footer.site p{line-height:1.7;font-size:14px}
+.page{display:none}
+.page.active{display:block}
+.open-chip{display:inline-block;background:#1d7a33;color:#fff;font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:6px 12px;border-radius:999px}
+.open-chip.closed{background:#7a1d1d}
+</style>
+</head>
+<body>
+<div class="demo-banner">Demo Preview &nbsp;·&nbsp; <span>This is a design preview for Las Palmas Auto Repair — not their live website yet.</span></div>
+<header class="site">
+  <div class="header-in">
+    <a class="lockup" href="#/home" data-nav="home" aria-label="Las Palmas Auto Repair — home">
+      <span class="l1">LAS PALMAS</span>
+      <span class="l2">AUTO REPAIR</span>
+      <span class="l3">Los Angeles · Compton Ave</span>
+    </a>
+    <nav class="main">
+      <a href="#/home" data-nav="home">Home</a>
+      <a href="#/services" data-nav="services">Services</a>
+      <a href="#/reviews" data-nav="reviews">Reviews</a>
+      <a href="#/book" data-nav="book">Book / Visit</a>
+    </nav>
+    <a class="btn btn-gold btn-sm" href="tel:+13232346855">Call (323) 234-6855</a>
+  </div>
+</header>
+
+<section class="hero">
+  <img class="bg" src="images/shop-front.jpg" alt="Las Palmas Auto Repair shop front on Compton Avenue, Los Angeles, with a red sports car parked in front of the yellow AUTO REPAIR sign" onerror="this.style.display='none'">
+  <div class="shade"></div>
+  <div class="hero-in">
+    <div class="kicker">Los Angeles · Since the neighborhood knows us</div>
+    <h1>Honest hands.<br><em>Master craft.</em></h1>
+    <div class="sign">LAS PALMAS&nbsp;&nbsp;AUTO REPAIR</div>
+    <p class="lede"><b>Your friendly neighborhood technicians.</b> We answer all your questions — or we'll refer you to someone that will. Diagnostics, engine work, smog and transmission, done right the first time, with no upselling and no guesswork.</p>
+    <div class="hero-cta">
+      <a class="btn btn-gold" href="#/book">Book an Appointment</a>
+      <a class="btn btn-ghost" href="#/services">Explore Services</a>
+      <a class="btn btn-red" href="tel:+13232346855">Call the Shop</a>
+    </div>
+    <div class="hero-meta">
+      <div><b>5.0</b><span>★ ★ ★ ★ ★ · 9 Google reviews</span></div>
+      <div><b>Mon–Sat</b><span>8 AM–5 PM weekdays</span></div>
+      <div><b>All makes</b><span>Cars · Trucks · Fleet</span></div>
+      <div><b>Smog on site</b><span>Test center + tire shop</span></div>
+    </div>
+  </div>
+</section>
+
+<main>
+<!-- ============ HOME ============ -->
+<div class="page" id="page-home">
+  <section class="block">
+    <div class="wrap">
+      <div class="kicker" style="color:var(--gold-deep)">The Las Palmas Standard</div>
+      <h2>Why drivers across South LA<br>bring their cars <em>here first.</em></h2>
+      <div class="rule"></div>
+      <p class="sub">Every review tells the same story: straight answers, fair prices, and work that holds up. No inflated estimates, no parts you don't need — just the fix, done well.</p>
+      <div class="grid3" style="margin-top:36px">
+        <div class="card pillar"><div class="num">01</div><h3>No upselling. Ever.</h3><p>"They won't try to upsell you or start tacking on unwanted repair costs like other places." — a customer who has brought them everything from tune-ups to whole engine swaps.</p></div>
+        <div class="card pillar"><div class="num">02</div><h3>Diagnostics that find it.</h3><p>When another shop quoted $1,500 for a sensor, Las Palmas found the real problem, fixed it fast, and got the truck through smog the same day.</p></div>
+        <div class="card pillar"><div class="num">03</div><h3>Fast, fair, and friendly.</h3><p>Low prices and fast service, from the man customers call by name — Jose and his team answer every question before they touch a wrench.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block dark" style="padding-top:60px">
+    <div class="wrap">
+      <div class="kicker">From the Shop Floor</div>
+      <h2>Real work, <em>real cars.</em></h2>
+      <div class="rule"></div>
+      <p class="sub">Photos from the shop's own feed — engine swaps, brake service, and the yellow building on Compton Ave that regulars know by heart.</p>
+      <div class="gallery" style="margin-top:30px" id="gallery">
+        <figure class="tall"><img src="images/shop-exterior.jpg" alt="Las Palmas Auto Repair building on Compton Ave — yellow shop with AUTO REPAIR sign, muffler and tire shop, tire racks and customer cars" onerror="this.closest('figure').style.display='none'"><figcaption>The shop on Compton Ave — muffler &amp; tire shop on site</figcaption></figure>
+        <figure><img src="images/engine-swap.jpg" alt="Nissan engine swap work at Las Palmas Auto Repair" onerror="this.closest('figure').style.display='none'"><figcaption>Nissan engine swap in progress</figcaption></figure>
+        <figure><img src="images/water-pump.jpg" alt="Water pump replacement on a Corvette at Las Palmas Auto Repair" onerror="this.closest('figure').style.display='none'"><figcaption>Water pump replacement — Corvette</figcaption></figure>
+        <figure><img src="images/brakes.jpg" alt="Rotor resurfacing during a brake service at Las Palmas Auto Repair" onerror="this.closest('figure').style.display='none'"><figcaption>Brake service — rotors turned on site</figcaption></figure>
+        <figure><img src="images/shop-front.jpg" alt="Red sports car parked in front of Las Palmas Auto Repair, with the AUTO REPAIR sign and tire wall behind it" onerror="this.closest('figure').style.display='none'"><figcaption>Out front — the sign regulars look for</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="grid2" style="align-items:stretch">
+        <div class="card" style="display:flex;flex-direction:column;justify-content:center">
+          <div class="stars">★★★★★</div>
+          <h3 style="font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;line-height:1.25;margin:12px 0">"Amazing mechanic Jose — he has a great attitude, always answers my questions."</h3>
+          <p>Google review · almost 5 years ago · 5.0 from 9 Google reviews</p>
+          <p style="margin-top:16px"><a href="#/reviews" style="color:var(--red-deep);font-weight:700">Read all six reviews →</a></p>
+        </div>
+        <div class="card" style="background:var(--black);border-color:var(--black);color:#f2efe7;display:flex;flex-direction:column;justify-content:center">
+          <div class="kicker">Visit the Shop</div>
+          <h3 style="font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;line-height:1.2;margin:12px 0;color:#fff">4822 Compton Ave<br>Los Angeles, CA 90011</h3>
+          <p style="color:#b9b4a8">Mon–Fri 8:00 AM–5:00 PM · Sat 8:00 AM–3:00 PM · Closed Sunday<br><span id="openNowHome"></span></p>
+          <p style="margin-top:18px"><a class="btn btn-gold" href="tel:+13232346855">Call (323) 234-6855</a> &nbsp; <a class="btn btn-ghost" href="https://maps.google.com/?q=Las+Palmas+Auto+Repair,+4822+Compton+Ave,+Los+Angeles,+CA+90011" target="_blank" rel="noopener">Get Directions</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ SERVICES ============ -->
+<div class="page" id="page-services">
+  <section class="block">
+    <div class="wrap">
+      <div class="kicker" style="color:var(--gold-deep)">Services</div>
+      <h2>Everything your car needs.<br><em>Nothing it doesn't.</em></h2>
+      <div class="rule"></div>
+      <p class="sub">Search the services below, then add what your car needs to your visit list. Bring the list in — or call ahead and we'll talk through it first. All makes and models: everyday cars, light trucks, and fleet vehicles.</p>
+      <div class="toolbar">
+        <input type="search" id="svcSearch" placeholder="Search services — try “smog”, “oil”, “transmission”…" aria-label="Search services">
+        <button class="fchip active" data-filter="all">All</button>
+        <button class="fchip" data-filter="Diagnostics">Diagnostics</button>
+        <button class="fchip" data-filter="Maintenance">Maintenance</button>
+        <button class="fchip" data-filter="Major work">Major Work</button>
+        <button class="fchip" data-filter="Compliance">Smog &amp; Compliance</button>
+      </div>
+      <div class="svc-grid" id="svcGrid"></div>
+
+      <div class="builder" id="builder">
+        <h3>Build your visit — <em>your service list</em></h3>
+        <p>Tap "Add to my visit" on any service above. Add your vehicle and we'll put together a summary you can bring in or read over the phone. Las Palmas doesn't publish prices online — your quote comes from the shop after they see the car, never from this page.</p>
+        <ul class="sel-list" id="selList"><li style="color:#8f8a80">No services selected yet — pick from the list above.</li></ul>
+        <div class="row3">
+          <div><label for="vYear">Vehicle year</label><input id="vYear" type="text" inputmode="numeric" placeholder="e.g. 2016"></div>
+          <div><label for="vMake">Make</label><input id="vMake" type="text" placeholder="e.g. Ford"></div>
+          <div><label for="vModel">Model</label><input id="vModel" type="text" placeholder="e.g. F-150"></div>
+        </div>
+        <label for="vNotes">What's going on with the car? (optional)</label>
+        <input id="vNotes" type="text" placeholder="e.g. Check engine light on, needs smog this week">
+        <p style="margin-top:18px"><button class="btn btn-gold" id="buildSummaryBtn" type="button">Build My Visit Summary</button></p>
+        <div class="summary-box" id="summaryBox">
+          <h4>Your visit summary</h4>
+          <p id="summaryText"></p>
+          <p><a class="btn btn-red" href="tel:+13232346855">Call (323) 234-6855 to confirm</a></p>
+          <p class="fine">This summary lives only on this page — nothing is sent anywhere. Call the shop to book it in.</p>
+        </div>
+      </div>
+
+      <div class="grid2" style="margin-top:26px">
+        <div class="card"><h3>Smog Test Center on site</h3><p>Repair and smog in one stop — customers report getting a repair done and passing smog the same day. Ask about it when you call.</p></div>
+        <div class="card"><h3>Tire shop next door</h3><p>An adjacent tire shop makes it easy to pair repairs with tire replacement — one trip, the whole car handled.</p></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ REVIEWS ============ -->
+<div class="page" id="page-reviews">
+  <section class="block">
+    <div class="wrap">
+      <div class="kicker" style="color:var(--gold-deep)">Reviews</div>
+      <h2>A perfect record,<br><em>in their own words.</em></h2>
+      <div class="rule"></div>
+      <div class="rev-head">
+        <div>
+          <div class="big-score">5.0</div>
+          <div class="stars">★★★★★</div>
+          <p style="color:var(--mut);margin:8px 0 0">9 Google reviews · Los Angeles, CA</p>
+        </div>
+        <div class="bars" id="ratingBars"></div>
+      </div>
+      <div class="carousel" id="carousel">
+        <button class="car-btn prev" id="carPrev" aria-label="Previous review">‹</button>
+        <blockquote id="carQuote"></blockquote>
+        <div class="who" id="carWho"></div>
+        <button class="car-btn next" id="carNext" aria-label="Next review">›</button>
+      </div>
+      <div class="dots" id="carDots"></div>
+      <p class="fine" style="margin-top:18px">Reviews shown are real Google reviews for Las Palmas Auto Repair, lightly trimmed for length. Reviewer names are not shown on the public listing pages — the words and dates are exactly as posted.</p>
+    </div>
+  </section>
+</div>
+
+<!-- ============ BOOK / VISIT ============ -->
+<div class="page" id="page-book">
+  <section class="block">
+    <div class="wrap">
+      <div class="kicker" style="color:var(--gold-deep)">Book / Visit</div>
+      <h2>Book your visit.<br><em>We'll take it from there.</em></h2>
+      <div class="rule"></div>
+      <p class="sub">Pick a day and time — the form only offers hours the shop is actually open. Nothing is sent anywhere; your booking summary appears right on this page, and you confirm it with one call.</p>
+      <div class="grid2" style="margin-top:34px;align-items:start">
+        <div class="card">
+          <form class="book" id="bookForm">
+            <div class="row2">
+              <div><label for="bName">Your name</label><input id="bName" type="text" placeholder="Full name" required></div>
+              <div><label for="bPhone">Phone</label><input id="bPhone" type="tel" placeholder="(323) 555-0100" required></div>
+            </div>
+            <label for="bVehicle">Vehicle</label>
+            <input id="bVehicle" type="text" placeholder="Year, make & model — e.g. 2018 Honda Civic" required>
+            <label for="bService">Service needed</label>
+            <select id="bService">
+              <option>Diagnostic &amp; sensor replacement</option>
+              <option>Engine repair &amp; overhaul</option>
+              <option>Oil change</option>
+              <option>Routine maintenance &amp; tune-up</option>
+              <option>Smog testing &amp; emissions</option>
+              <option>Transmission service</option>
+              <option>Not sure — need a diagnosis</option>
+            </select>
+            <div class="row2">
+              <div><label for="bDate">Preferred date</label><input id="bDate" type="date" required></div>
+              <div><label for="bTime">Preferred time</label><select id="bTime"><option value="">Pick a date first</option></select></div>
+            </div>
+            <p class="fine" id="dateNote" style="margin-top:8px">Open Mon–Fri 8:00 AM–5:00 PM · Sat 8:00 AM–3:00 PM · Closed Sundays.</p>
+            <label for="bNotes">Anything we should know?</label>
+            <textarea id="bNotes" rows="3" placeholder="Symptoms, warning lights, smog due date…"></textarea>
+            <p style="margin-top:20px"><button class="btn btn-gold" type="submit" style="width:100%">Request This Appointment</button></p>
+          </form>
+          <div class="confirm" id="bookConfirm">
+            <h4>Your appointment request is ready ✓</h4>
+            <p id="confirmText"></p>
+            <p><a class="btn btn-red" href="tel:+13232346855">Call (323) 234-6855 to confirm</a></p>
+            <p class="fine" style="color:#bcd8c0">Nothing was sent to the shop — call to lock it in, and mention your name and time.</p>
+          </div>
+        </div>
+        <div>
+          <div class="card" style="margin-bottom:18px">
+            <h3>Hours <span class="open-chip" id="openChip" style="float:right">—</span></h3>
+            <table class="hours" id="hoursTable" style="margin-top:14px">
+              <tr data-day="1"><td>Monday</td><td>8:00 AM – 5:00 PM</td></tr>
+              <tr data-day="2"><td>Tuesday</td><td>8:00 AM – 5:00 PM</td></tr>
+              <tr data-day="3"><td>Wednesday</td><td>8:00 AM – 5:00 PM</td></tr>
+              <tr data-day="4"><td>Thursday</td><td>8:00 AM – 5:00 PM</td></tr>
+              <tr data-day="5"><td>Friday</td><td>8:00 AM – 5:00 PM</td></tr>
+              <tr data-day="6"><td>Saturday</td><td>8:00 AM – 3:00 PM</td></tr>
+              <tr data-day="0"><td>Sunday</td><td>Closed</td></tr>
+            </table>
+          </div>
+          <div class="card" style="margin-bottom:18px">
+            <h3>Find us</h3>
+            <p>4822 Compton Ave<br>Los Angeles, CA 90011</p>
+            <p style="margin-top:12px"><a href="https://maps.google.com/?q=Las+Palmas+Auto+Repair,+4822+Compton+Ave,+Los+Angeles,+CA+90011" target="_blank" rel="noopener" style="color:var(--red-deep);font-weight:700">Open in Google Maps →</a></p>
+            <p style="margin-top:12px"><a href="tel:+13232346855" style="font-weight:700">Call (323) 234-6855</a><br><a href="sms:+13232346855" style="font-weight:700">Text the shop</a></p>
+            <p style="margin-top:12px">Follow the work: <a href="https://www.instagram.com/laspalmasauto" target="_blank" rel="noopener">Instagram @laspalmasauto</a> · <a href="https://www.facebook.com/1620509678269505" target="_blank" rel="noopener">Facebook</a></p>
+          </div>
+          <div class="card">
+            <h3>Good to know</h3>
+            <p>Call ahead and describe the symptoms — it helps the team prioritize same-day work. Bring any previous diagnostics if you have them; it speeds up tricky jobs like sensor faults.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:44px">
+        <h2 style="font-size:34px">Questions, <em>answered.</em></h2>
+        <div class="rule"></div>
+        <div class="faq" style="margin-top:22px">
+          <details><summary>Where is Las Palmas Auto Repair?</summary><p>4822 Compton Ave, Los Angeles, CA 90011 — on Compton Avenue in South LA. Tap "Get Directions" above for a map.</p></details>
+          <details><summary>What are your hours?</summary><p>Monday–Friday 8:00 AM–5:00 PM, Saturday 8:00 AM–3:00 PM, closed Sundays.</p></details>
+          <details><summary>Do you do smog tests?</summary><p>Yes — there is a Smog Test Center on site. Customers have had a repair done and passed smog the same day.</p></details>
+          <details><summary>Do you work on all makes and models?</summary><p>Yes — everyday cars, light trucks, and fleet vehicles of all makes and models.</p></details>
+          <details><summary>Do I need an appointment?</summary><p>Calling ahead at (323) 234-6855 is the best way to secure a slot — describe the problem and the team will advise. Walk-ins are taken when the workload allows.</p></details>
+          <details><summary>Who will work on my car?</summary><p>Jose is the mechanic customers name in their reviews — "Jose and his team" handle the work, and customers praise how thoroughly they answer questions.</p></details>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="f-grid">
+      <div>
+        <a class="lockup" href="#/home" data-nav="home">
+          <span class="l1">LAS PALMAS</span>
+          <span class="l2">AUTO REPAIR</span>
+        </a>
+        <p style="margin-top:16px">Your friendly neighborhood technicians. We answer all your questions — or we'll refer you to someone that will.</p>
+        <p>★ 5.0 · 9 Google reviews</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>4822 Compton Ave<br>Los Angeles, CA 90011<br>Mon–Fri 8 AM–5 PM<br>Sat 8 AM–3 PM · Sun closed</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="tel:+13232346855">(323) 234-6855</a><br><a href="sms:+13232346855">Text the shop</a><br><a href="https://www.instagram.com/laspalmasauto" target="_blank" rel="noopener">Instagram @laspalmasauto</a><br><a href="https://www.facebook.com/1620509678269505" target="_blank" rel="noopener">Facebook</a></p>
+      </div>
+    </div>
+    <p style="margin-top:34px;font-size:12px;color:#6f6c66">Demo preview — a design concept for Las Palmas Auto Repair. Photos are from the shop's public Facebook and Instagram pages; reviews are real Google reviews. Not affiliated with or endorsed by the business.</p>
+  </div>
+</footer>
+
+<script>
+/* ---------- data: verified facts only ---------- */
+var SERVICES=[
+ {id:'diag',cat:'Diagnostics',name:'Diagnostic & Sensor Replacement',desc:'Fast, accurate identification of the real problem. Customers note the shop traced a faulty ETC (coolant temperature) sensor another shop had misquoted — and fixed it without the guesswork.',tag:'Same-day diagnostics when parts & schedule align'},
+ {id:'engine',cat:'Major work',name:'Engine Repair & Overhaul',desc:'From simple tune-ups to whole engine swaps. The shop has handled everything from daily drivers to full engine replacements — including the Nissan engine swap in the gallery.',tag:'Tune-ups to complete engine swaps'},
+ {id:'oil',cat:'Maintenance',name:'Oil Changes',desc:'Oil changes, filters and belts with efficient turnaround — the routine work that keeps a car out of the shop later.',tag:'Fast turnaround'},
+ {id:'maint',cat:'Maintenance',name:'Routine Maintenance & Tune-Ups',desc:'Routine maintenance and tune-ups for all makes and models — the steady, honest upkeep regulars come back for.',tag:'All makes & models'},
+ {id:'smog',cat:'Compliance',name:'Smog Testing & Emissions Compliance',desc:'On-site Smog Test Center. Customers report getting a repair done and passing smog the same day — repair and compliance in one stop.',tag:'Smog Test Center on site'},
+ {id:'trans',cat:'Major work',name:'Transmission Service',desc:'Transmission service for vehicles of all types and sizes — part of the full mechanical range the shop is known for.',tag:'All vehicle types'}
+];
+var REVIEWS=[
+ {stars:5,text:'\u201CVery good service, attentive and friendly.\u201D',who:'Google review \u00B7 almost 2 years ago'},
+ {stars:5,text:'\u201CAmazing mechanic Jose \u2014 he has a great attitude, always answers my questions.\u201D',who:'Google review \u00B7 almost 5 years ago'},
+ {stars:5,text:'\u201CThey definitely know their stuff. They won\u2019t try to upsell you or start tacking on unwanted repair costs like other places. I\u2019ve taken various cars I\u2019ve owned here for simple tune-ups to whole engine swaps. Fast, friendly, and knowledgeable\u2026\u201D',who:'Google review \u00B7 over 6 years ago'},
+ {stars:5,text:'\u201CLow prices and fast service!\u201D',who:'Google review \u00B7 over 7 years ago'},
+ {stars:5,text:'\u201CI took my Ford E450 here after another mechanic wanted $1,500 to fix an ETC sensor. These guys found the problem\u2026 Jose and his team are honest and good dudes. They did great work, were fast and reasonably priced \u2014 and repaired the truck to pass smog in one day.\u201D',who:'Google review \u00B7 over 9 years ago'},
+ {stars:5,text:'\u201CHad an amazing experience with the man who fixed our tire. We were stuck on the side of the road\u2026 he was kind and straight to the point. He gave a fee for the tire replacement and did not up-charge or change prices. Was an amazing man who worked fast.\u201D',who:'Google review \u00B7 date not shown on listing'}
+];
+/* hours: Mon=1..Sat=6 open 08:00-17:00, Sat to 15:00, Sun=0 closed */
+var HOURS={1:[8,17],2:[8,17],3:[8,17],4:[8,17],5:[8,17],6:[8,15],0:null};
+var DAYNAMES=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+/* ---------- router ---------- */
+var PAGES=['home','services','reviews','book'];
+function showPage(p){
+  if(PAGES.indexOf(p)<0)p='home';
+  PAGES.forEach(function(id){
+    var el=document.getElementById('page-'+id);
+    if(el)el.classList.toggle('active',id===p);
+  });
+  document.querySelectorAll('[data-nav]').forEach(function(a){
+    a.classList.toggle('active',a.getAttribute('data-nav')===p);
+  });
+  window.scrollTo(0,0);
+}
+function route(){
+  var h=(location.hash||'#/home').replace('#/','');
+  showPage(h.split('/')[0]);
+}
+window.addEventListener('hashchange',route);
+
+/* ---------- services explorer ---------- */
+var selected={};
+var curFilter='all',curQuery='';
+function renderServices(){
+  var grid=document.getElementById('svcGrid');
+  var q=curQuery.trim().toLowerCase();
+  var list=SERVICES.filter(function(s){
+    var okF=curFilter==='all'||s.cat===curFilter;
+    var okQ=!q||(s.name+' '+s.desc+' '+s.cat).toLowerCase().indexOf(q)>-1;
+    return okF&&okQ;
+  });
+  if(!list.length){grid.innerHTML='<p style="color:#6d6a63">No services match that search — try \u201Csmog\u201D, \u201Coil\u201D, or \u201Ctransmission\u201D.</p>';return;}
+  grid.innerHTML=list.map(function(s){
+    var on=!!selected[s.id];
+    return '<div class="svc"><span class="cat">'+s.cat+'</span><h3>'+s.name+'</h3><p>'+s.desc+'</p><span class="tag">'+s.tag+'</span><button class="add'+(on?' added':'')+'" data-svc="'+s.id+'">'+(on?'✓ Added to my visit':'＋ Add to my visit')+'</button></div>';
+  }).join('');
+  grid.querySelectorAll('[data-svc]').forEach(function(b){
+    b.addEventListener('click',function(){
+      var id=b.getAttribute('data-svc');
+      if(selected[id])delete selected[id];else selected[id]=true;
+      renderServices();renderSel();
+    });
+  });
+}
+function renderSel(){
+  var ul=document.getElementById('selList');
+  var ids=Object.keys(selected);
+  if(!ids.length){ul.innerHTML='<li style="color:#8f8a80">No services selected yet — pick from the list above.</li>';return;}
+  ul.innerHTML=ids.map(function(id){
+    var s=SERVICES.filter(function(x){return x.id===id;})[0];
+    return '<li><span>'+s.name+'</span><button data-rm="'+id+'">Remove</button></li>';
+  }).join('');
+  ul.querySelectorAll('[data-rm]').forEach(function(b){
+    b.addEventListener('click',function(){delete selected[b.getAttribute('data-rm')];renderServices();renderSel();});
+  });
+}
+document.getElementById('svcSearch').addEventListener('input',function(e){curQuery=e.target.value;renderServices();});
+document.querySelectorAll('.fchip').forEach(function(c){
+  c.addEventListener('click',function(){
+    document.querySelectorAll('.fchip').forEach(function(x){x.classList.remove('active');});
+    c.classList.add('active');curFilter=c.getAttribute('data-filter');renderServices();
+  });
+});
+document.getElementById('buildSummaryBtn').addEventListener('click',function(){
+  var ids=Object.keys(selected);
+  var y=document.getElementById('vYear').value.trim();
+  var mk=document.getElementById('vMake').value.trim();
+  var md=document.getElementById('vModel').value.trim();
+  var nt=document.getElementById('vNotes').value.trim();
+  var veh=[y,mk,md].filter(Boolean).join(' ');
+  var txt='';
+  if(!ids.length){txt='No services picked yet — add at least one service above, then build your summary.';}
+  else{
+    txt='Services for your visit: '+ids.map(function(id){return SERVICES.filter(function(x){return x.id===id;})[0].name;}).join(' · ')+'.';
+    txt+=' Vehicle: '+(veh||'not entered yet')+'.';
+    if(nt)txt+=' Notes: \u201C'+nt+'\u201D';
+    txt+=' Call (323) 234-6855 to confirm and get your quote — the shop prices the job after seeing the car.';
+  }
+  document.getElementById('summaryText').textContent=txt;
+  document.getElementById('summaryBox').classList.add('show');
+  document.getElementById('summaryBox').scrollIntoView({behavior:'smooth',block:'center'});
+});
+
+/* ---------- reviews: breakdown + carousel ---------- */
+(function(){
+  var counts={5:9,4:0,3:0,2:0,1:0},total=9;
+  document.getElementById('ratingBars').innerHTML=[5,4,3,2,1].map(function(n){
+    var pct=Math.round(counts[n]/total*100);
+    return '<div class="bar-row"><span>'+n+' ★</span><div class="bar-track"><div class="bar-fill" style="width:'+pct+'%"></div></div><span>'+counts[n]+'</span></div>';
+  }).join('')+'<p class="fine" style="margin-top:10px">5.0 average across 9 Google reviews — every review posted is five stars.</p>';
+  var i=0,timer=null;
+  function show(n){
+    i=(n+REVIEWS.length)%REVIEWS.length;
+    document.getElementById('carQuote').textContent=REVIEWS[i].text;
+    document.getElementById('carWho').innerHTML='<b>'+'★'.repeat(REVIEWS[i].stars)+'</b> &nbsp;·&nbsp; '+REVIEWS[i].who;
+    document.querySelectorAll('#carDots button').forEach(function(d,di){d.classList.toggle('on',di===i);});
+  }
+  document.getElementById('carDots').innerHTML=REVIEWS.map(function(_,di){return '<button aria-label="Review '+(di+1)+'"></button>';}).join('');
+  document.querySelectorAll('#carDots button').forEach(function(d,di){d.addEventListener('click',function(){show(di);restart();});});
+  document.getElementById('carPrev').addEventListener('click',function(){show(i-1);restart();});
+  document.getElementById('carNext').addEventListener('click',function(){show(i+1);restart();});
+  function restart(){if(timer)clearInterval(timer);timer=setInterval(function(){show(i+1);},7000);}
+  document.getElementById('carousel').addEventListener('mouseenter',function(){if(timer)clearInterval(timer);});
+  document.getElementById('carousel').addEventListener('mouseleave',restart);
+  show(0);restart();
+})();
+
+/* ---------- hours: today highlight + open-now ---------- */
+function laNow(){
+  try{return new Date(new Date().toLocaleString('en-US',{timeZone:'America/Los_Angeles'}));}
+  catch(e){return new Date();}
+}
+(function(){
+  var now=laNow(),dow=now.getDay(),hh=now.getHours()+now.getMinutes()/60;
+  document.querySelectorAll('#hoursTable tr').forEach(function(tr){
+    if(parseInt(tr.getAttribute('data-day'),10)===dow)tr.classList.add('today');
+  });
+  var h=HOURS[dow],open=h&&hh>=h[0]&&hh<h[1];
+  var chip=document.getElementById('openChip');
+  if(open){chip.textContent='Open now';chip.classList.remove('closed');}
+  else{
+    chip.textContent='Closed now';chip.classList.add('closed');
+    var next=null;
+    for(var k=1;k<=7;k++){var nd=(dow+k)%7;if(HOURS[nd]){next={day:nd,open:HOURS[nd][0]};break;}}
+    if(next)chip.textContent='Closed · opens '+DAYNAMES[next.day]+' '+next.open+':00 AM';
+  }
+  var home=document.getElementById('openNowHome');
+  if(home)home.textContent=open?'Open now — walk in or call ahead.':'Closed right now — see hours below.';
+})();
+
+/* ---------- booking form: real hours only ---------- */
+var dateInput=document.getElementById('bDate');
+(function(){
+  var t=new Date();var iso=t.getFullYear()+'-'+String(t.getMonth()+1).padStart(2,'0')+'-'+String(t.getDate()).padStart(2,'0');
+  dateInput.min=iso;
+})();
+function fmtHour(h){
+  var ap=h>=12?'PM':'AM';var hh=h%12;if(hh===0)hh=12;
+  return hh+':00 '+ap;
+}
+dateInput.addEventListener('change',function(){
+  var sel=document.getElementById('bTime'),note=document.getElementById('dateNote');
+  sel.innerHTML='';
+  if(!dateInput.value){sel.innerHTML='<option value="">Pick a date first</option>';return;}
+  var d=new Date(dateInput.value+'T12:00:00');
+  var dow=d.getDay(),h=HOURS[dow];
+  if(!h){
+    sel.innerHTML='<option value="">Closed on Sundays</option>';
+    note.textContent='The shop is closed on Sundays — please pick another day.';
+    return;
+  }
+  note.textContent='Open '+DAYNAMES[dow]+' '+fmtHour(h[0])+'–'+fmtHour(h[1])+'. Pick a time below.';
+  for(var hh=h[0];hh<h[1];hh++){
+    var o=document.createElement('option');
+    o.value=fmtHour(hh);o.textContent=fmtHour(hh);
+    sel.appendChild(o);
+  }
+});
+document.getElementById('bookForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  var name=document.getElementById('bName').value.trim();
+  var phone=document.getElementById('bPhone').value.trim();
+  var veh=document.getElementById('bVehicle').value.trim();
+  var svc=document.getElementById('bService').value;
+  var dt=document.getElementById('bDate').value;
+  var tm=document.getElementById('bTime').value;
+  var notes=document.getElementById('bNotes').value.trim();
+  if(!name||!phone||!veh||!dt||!tm||tm.indexOf('Closed')===0){
+    alert('Please fill in your name, phone, vehicle, and pick an open day and time.');
+    return;
+  }
+  var d=new Date(dt+'T12:00:00');
+  var pretty=DAYNAMES[d.getDay()]+', '+d.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
+  var txt=name+' — '+veh+' — '+svc+' — '+pretty+' at '+tm+'. Contact: '+phone+'.';
+  if(notes)txt+=' Notes: \u201C'+notes+'\u201D';
+  document.getElementById('confirmText').textContent=txt;
+  document.getElementById('bookConfirm').classList.add('show');
+  document.getElementById('bookConfirm').scrollIntoView({behavior:'smooth',block:'center'});
+});
+
+/* ---------- init ---------- */
+renderServices();renderSel();route();
+</script>
+</body>
+</html>
